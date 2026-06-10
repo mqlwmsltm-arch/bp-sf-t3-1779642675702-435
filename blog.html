@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 브루탈 블로그 | 백링크 대행 꿀팁</title>
+    <meta name="description" content="마포 스트릿 패셔너들을 위한 백링크 대행 실전 팁. 브루탈리즘 감성으로 퍼포먼스 확 올리는 방법.">
+    <meta name="keywords" content="스트릿패션, 백링크 대행, 마포, 브루탈리즘, 블로그, 링크빌딩, PBN, 패션 마케팅">
+    <link rel="canonical" href="https://sf-t3-1779642675702-435.vercel.app/blog">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <meta property="og:title" content="마포 스트릿 브루탈리즘 | 백링크 대행 블로그">
+    <meta property="og:description" content="진짜 백링크 잘 걸고 싶으면 여기 보셈. 마포 형님들이 알려주는 노하우.">
+    <meta property="og:image" content="https://sf-t3-1779642675702-435.vercel.app/og-blog.jpg">
+    <meta property="og:url" content="https://sf-t3-1779642675702-435.vercel.app/blog">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 브루탈 블로그">
+    <meta name="twitter:description" content="백링크 대행, 이렇게 하면 효과 200%">
+    <style>
+        /* RESET & BASE */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; font-size: 16px; }
+        body { 
+            font-family: 'Courier New', Courier, monospace;
+            background: #0a0a0a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* NEON-VOID 테마 변수 */
+        :root {
+            --neon-pink: #ff2d78;
+            --neon-blue: #00f0ff;
+            --neon-green: #39ff14;
+            --brutal-yellow: #f5e642;
+            --brutal-orange: #ff6b35;
+            --dark-bg: #0a0a0a;
+            --card-bg: #1a1a1a;
+            --border-brutal: 4px solid #e0e0e0;
+            --shadow-brutal: 8px 8px 0px rgba(0,0,0,0.8);
+            --glow-pink: 0 0 15px #ff2d78, 0 0 30px #ff2d78;
+            --glow-blue: 0 0 15px #00f0ff, 0 0 30px #00f0ff;
+        }
+
+        /* TYPOGRAPHY */
+        h1, h2, h3, h4, h5, h6 { 
+            font-weight: 900; 
+            text-transform: uppercase; 
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+        }
+        h1 { 
+            font-size: 3.5rem; 
+            color: var(--neon-pink); 
+            text-shadow: var(--glow-pink);
+            border-bottom: var(--border-brutal);
+            padding-bottom: 0.5rem;
+        }
+        h2 { 
+            font-size: 2.5rem; 
+            color: var(--neon-blue); 
+            text-shadow: var(--glow-blue);
+            border-left: 6px solid var(--neon-blue);
+            padding-left: 1rem;
+        }
+        h3 { 
+            font-size: 1.8rem; 
+            color: var(--brutal-yellow);
+        }
+        p, li, blockquote { 
+            font-size: 1.1rem; 
+            margin-bottom: 1.2rem;
+            color: #ccc;
+        }
+        a { 
+            color: var(--neon-pink); 
+            text-decoration: underline wavy;
+            transition: all 0.3s ease;
+        }
+        a:hover { 
+            color: var(--brutal-yellow); 
+            text-shadow: 0 0 10px var(--brutal-yellow);
+        }
+
+        /* LAYOUT */
+        header {
+            background: var(--card-bg);
+            border-bottom: var(--border-brutal);
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: var(--shadow-brutal);
+        }
+        .logo { 
+            font-size: 1.8rem; 
+            font-weight: 900; 
+            color: var(--neon-pink);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        .logo span { 
+            color: var(--neon-blue);
+            background: #000;
+            padding: 0 5px;
+        }
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 1rem;
+            padding: 0.5rem 1rem;
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+        nav a:hover {
+            border-color: var(--neon-pink);
+            background: rgba(255,45,120,0.1);
+            color: var(--neon-pink);
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+        .hamburger-menu span {
+            width: 30px;
+            height: 3px;
+            background: #e0e0e0;
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+        .tel-link {
+            background: var(--neon-pink);
+            color: #000 !important;
+            padding: 0.5rem 1.2rem !important;
+            border: none !important;
+            font-weight: 900;
+            text-shadow: none;
+        }
+        .tel-link:hover {
+            background: var(--brutal-yellow) !important;
+            color: #000 !important;
+        }
+        main {
+            flex: 1;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+            width: 100%;
+        }
+        section {
+            margin-bottom: 4rem;
+            padding: 2rem;
+            background: var(--card-bg);
+            border: var(--border-brutal);
+            box-shadow: var(--shadow-brutal);
+        }
+        .blog-post {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .blog-post .meta {
+            color: var(--brutal-orange);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 1rem;
+        }
+        .blog-post img {
+            width: 100%;
+            height: auto;
+            border: var(--border-brutal);
+            margin: 2rem 0;
+            filter: grayscale(0.5) contrast(1.2);
+        }
+        .blog-post blockquote {
+            border-left: 6px solid var(--neon-green);
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: var(--neon-green);
+            background: rgba(57,255,20,0.05);
+            padding: 1.5rem;
+        }
+        .blog-post ul, .blog-post ol {
+            margin: 1.5rem 0;
+            padding-left: 2rem;
+        }
+        .blog-post li {
+            margin-bottom: 0.8rem;
+        }
+        .blog-post .highlight-box {
+            background: #111;
+            border: 3px solid var(--brutal-yellow);
+            padding: 1.5rem;
+            margin: 2rem 0;
+            color: var(--brutal-yellow);
+        }
+        footer {
+            background: var(--card-bg);
+            border-top: var(--border-brutal);
+            padding: 2rem;
+            text-align: center;
+            margin-top: auto;
+        }
+        footer p {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        /* responsive-768 */
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background: var(--card-bg);
+                padding: 1rem;
+                border-bottom: var(--border-brutal);
+            }
+            nav.active {
+                display: flex;
+            }
+            .hamburger-menu {
+                display: flex;
+            }
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 2rem; }
+            h3 { font-size: 1.5rem; }
+            main { padding: 1.5rem; }
+            section { padding: 1.5rem; }
+            .logo { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">BRUTAL<span>STREET</span></div>
+        <div class="hamburger-menu" onclick="toggleNav()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="mainNav">
+            <a href="/">홈</a>
+            <a href="/blog">블로그</a>
+            <a href="/about">어바웃</a>
+            <a href="/contact">컨택</a>
+            <a href="tel:010-6279-0862" class="tel-link">📞 010-6279-0862</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-post">
+            <h1>백링크 대행, 이렇게 하면 효과 200%</h1>
+            <div class="meta">
+                <span>📅 2024.03.15</span> · 
+                <span>✍️ 마포 형님</span> · 
+                <span>🏷️ 백링크, PBN, 스트릿패션</span>
+            </div>
+
+            <p>야, 안녕? 마포에서 제일 거친 백링크 대행 하는 형이야. 오늘은 진짜 쓸데없는 이론 빼고, 내가 현장에서 몸으로 부딪히면서 배운 꿀팁만 쫙 뽑아왔어. 스트릿 패션 브랜드 운영하는 너한테 진짜 도움될 거야.</p>
+
+            <p>사실 백링크 대행 시장에 가짜 업자들 개많잖아? "링크 100개에 10만원" 이런 거 다 사기야. 내가 직접 마포에서 PBN 운영하면서 느낀 건데, <strong>퀄리티 없는 링크는 그냥 쓰레기</strong>야. 구글한테 걸리면 사이트 자체가 날아갈 수도 있어.</p>
+
+            <blockquote>
+                "백링크는 스트릿 패션의 로고와 같다. 하나하나가 브랜드의 정체성을 만든다."
+            </blockquote>
+
+            <p>내가 운영하는 PBN 네트워크는 진짜야. 도메인 나이 5년 이상, 관련 콘텐츠, 그리고 가장 중요한 <strong>자연스러운 앵커 텍스트</strong>. 이거 하나만 기억해. "백링크 대행" 이런 키워드로만 링크 걸면 100% 걸려.</p>
+
+            <div class="highlight-box">
+                <strong>🔥 형님의 원칙:</strong><br>
+                1. 관련성 甲인 사이트에서만 링크<br>
+                2. 앵커 텍스트는 브랜드명 70% + 키워드 30%<br>
+                3. 한 사이트에서 너무 많이 걸지 않기<br>
+                4. 콘텐츠 퀄리티는 기본 중 기본
+            </div>
+
+            <h2>실전 케이스: 마포 스트릿 브랜드 A</h2>
+            <p>작년에 마포에서 운영하는 스트릿 브랜드 '크루얼 갱'이 나한테 왔어. 도메인 파워 10도 안 되는 신생 사이트였지. 근데 지금은? <strong>도메인 파워 42</strong>, 오가닉 트래픽 3배 상승. 어떻게 했을까?</p>
+
+            <ul>
+                <li>패션 관련 게스트 포스트 15개 (진짜 패션 블로그에만)</li>
+                <li>PBN 8개에서 자연스러운 링크</li>
+                <li>소셜 시그널 + 프로필 백링크</li>
+                <li>로컬 마포 커뮤니티 사이트에서 언급</li>
+            </ul>
+
+            <p>근데 여기서 중요한 게 뭔지 알아? <strong>한 달에 2~3개씩 천천히</strong> 링크를 걸었어. 갑자기 50개 링크 한꺼번에 터뜨리면 구글이 의심해. 마치 스트릿 패션처럼, 자연스러운 흐름이 중요해.</p>
+
+            <h3>너가 당장 해야 할 것</h3>
+            <p>첫째, 네 사이트부터 제대로 만들어. 콘텐츠가 쓰레기면 링크 걸어도 소용없어. 둘째, <strong>백링크 대행 업체</strong> 고를 때 깐깐하게 골라. 나처럼 진짜 하는 사람 만나야 해. 셋째, 기다려. 결과는 3개월 후에 나와.</p>
+
+            <p>마지막으로, 내 전화번호 다시 알려줄게. 진짜 상담 원하면 언제든 전화해. 가짜 상담 없어. 다 내 경험담이야.</p>
+
+            <p style="font-size: 1.5rem; font-weight: 900; color: var(--neon-pink); text-align: center; margin-top: 2rem;">
+                📞 010-6279-0862
+            </p>
+
+            <p style="text-align: center; color: var(--brutal-orange);">"진짜는 진짜를 알아본다. 마포에서 증명한다."</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 BRUTALSTREET - 마포 스트릿 브루탈리즘 백링크 대행 | 전화 010-6279-0862</p>
+        <p style="margin-top: 0.5rem; font-size: 0.8rem;">본 사이트는 PBN 네트워크의 일부입니다. 모든 콘텐츠는 실제 경험 기반입니다.</p>
+    </footer>
+
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById('mainNav');
+            nav.classList.toggle('active');
+        }
+
+        // 닫기 기능: 메뉴 외부 클릭 시
+        document.addEventListener('click', function(event) {
+            var nav = document.getElementById('mainNav');
+            var hamburger = document.querySelector('.hamburger-menu');
+            if (!nav.contains(event.target) && !hamburger.contains(event.target)) {
+                nav.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
